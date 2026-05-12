@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Stacks Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #0b0b10;
+      --card: #151523;
+      --card-2: #10101a;
+      --border: #24243a;
+      --text: #ffffff;
+      --muted: #cfd0df;
+      --soft: #b8b8c7;
+      --blue: #3b82f6;
+      --gold: #f5c542;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(59, 130, 246, 0.22), transparent 32%),
+        radial-gradient(circle at top right, rgba(245, 197, 66, 0.16), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 18px 48px;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 48px 20px 34px;
+    }
+
+    .logo-wrap {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      width: 128px;
+      height: 128px;
+      border-radius: 26px;
+      background: rgba(10, 10, 18, 0.96);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+    }
+
+    .logo-wrap img {
+      width: 82%;
+      height: 82%;
+      object-fit: contain;
+    }
+
+    .logo-placeholder {
+      color: var(--soft);
+      font-size: 11px;
+      text-align: center;
+      padding: 6px;
+      line-height: 1.3;
+      font-weight: 700;
+    }
+
+    .badge {
+      display: inline-block;
+      color: var(--gold);
+      border: 1px solid rgba(245, 197, 66, 0.45);
+      background: rgba(245, 197, 66, 0.08);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 1.05;
+      font-weight: 900;
+      letter-spacing: -1.2px;
+    }
+
+    .hero p {
+      color: var(--soft);
+      max-width: 700px;
+      margin: 18px auto 0;
+      font-size: 17px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin: 18px 0 26px;
+    }
+
+    .mini-card {
+      background: rgba(21, 21, 35, 0.8);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      text-align: center;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+    }
+
+    .mini-card strong {
+      display: block;
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+
+    .mini-card span {
+      color: var(--soft);
+      font-size: 13px;
+    }
+
+    .content {
+      background: rgba(21, 21, 35, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    h2 {
+      color: var(--text);
+      font-size: 22px;
+      margin: 30px 0 10px;
+      padding-top: 4px;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .notice {
+      background: var(--card-2);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--blue);
+      border-radius: 14px;
+      padding: 16px;
+      color: var(--muted);
+      margin: 20px 0;
+    }
+
+    .faq-item {
+      background: var(--card-2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      margin-top: 14px;
+    }
+
+    .faq-question {
+      color: white;
+      font-size: 18px;
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+
+    .faq-answer {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--soft);
+      font-size: 13px;
+      margin-top: 24px;
+    }
+
+    a {
+      color: #8ab4ff;
+    }
+
+    @media (max-width: 720px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .hero {
+        padding-top: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="badge">Privacy Policy</div>
+      <h1>My Stacks</h1>
+      <p>A simple privacy policy for the My Stacks app. Your asset information is stored locally on your device and remains under your control.</p>
+    </section>
+
+    <section class="grid" aria-label="Privacy highlights">
+      <div class="mini-card">
+        <strong>Local Storage</strong>
+        <span>Your asset data is stored on your device.</span>
+      </div>
+      <div class="mini-card">
+        <strong>No Accounts</strong>
+        <span>The app does not require sign-in.</span>
+      </div>
+      <div class="mini-card">
+        <strong>User-Controlled Backups</strong>
+        <span>You decide where backup files are saved or shared.</span>
+      </div>
+    </section>
+
+    <section class="content">
+      <h2>Privacy Policy for My Stacks</h2>
+      <p><strong>Effective Date:</strong> [Insert Date]</p>
+
+      <p>My Stacks is designed to help users track their precious metals, coins, bars, rounds, bulk assets, notes, photos, and related asset details. This Privacy Policy explains how the app handles information.</p>
+
+      <div class="notice">
+        My Stacks does not require an account and does not send your asset inventory to our servers.
+      </div>
+
+      <h2>Information Stored by the App</h2>
+      <p>My Stacks may store the following information locally on your device:</p>
+      <ul>
+        <li>Asset names and descriptions</li>
+        <li>Metal type, asset type, weight, quantity, and purchase price</li>
+        <li>Purchase dates and notes</li>
+        <li>Photos you choose to attach to assets</li>
+        <li>Backup and restore data created by the user</li>
+      </ul>
+
+      <h2>How Your Data Is Stored</h2>
+      <p>Your asset information is stored locally on your device using app storage. My Stacks does not operate a cloud database for your inventory and does not automatically upload your asset information to an external server.</p>
+
+      <h2>Backups and Restore Files</h2>
+      <p>My Stacks includes backup and restore features. When you create a backup file, you choose where to save or share that file, such as email, downloads, files, or cloud storage. Any backup file you create is your responsibility to protect and manage.</p>
+
+      <h2>Camera and Photo Access</h2>
+      <p>The app may request camera or photo-related permissions so you can add front and back images of assets. These images are used only for the asset records you create inside the app.</p>
+
+      <h2>File Access</h2>
+      <p>The app may use file access to export CSV files, create full backup ZIP files, and restore backup ZIP files selected by the user.</p>
+
+      <h2>Data Sharing</h2>
+      <p>My Stacks does not sell your personal data. The app does not intentionally share your asset inventory with third parties. If you export, email, upload, or share a backup file, that action is controlled by you and may be subject to the privacy practices of the service you choose.</p>
+
+      <h2>Data Deletion</h2>
+      <p>You can delete your locally stored app data by using your device settings or the reset option inside the app. Before resetting app data, you should create a backup if you want to keep your assets. Resetting app data may permanently remove locally stored assets and photos from the device.</p>
+
+      <h2>Children’s Privacy</h2>
+      <p>My Stacks is not directed to children under 13. The app is intended for general users who want to track their own asset information.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>This Privacy Policy may be updated from time to time. Updates will be posted on this page with a revised effective date.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          How do I restore a backup file?
+        </div>
+        <div class="faq-answer">
+          Use the Restore Backup feature inside the app and select the ZIP backup file from your device, downloads folder, email attachment, or cloud storage provider.
+        </div>
+      </div>
+
+      <h2>Contact</h2>
+      <p>If you have questions about this Privacy Policy, contact:</p>
+      <p><strong>[Insert Your Contact Email]</strong></p>
+    </section>
+
+    <p class="footer">© <span id="year"></span> My Stacks. All rights reserved.</p>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
